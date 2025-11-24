@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "htmlhelpers";
+}
+
+<style>
+    h2
+    {
+        text-align:center;
+        text-shadow:4px 4px 4px blue;
+    }
+</style>
+
+<h2>standard type view </h2>
+
+<h3> Register form ====> standard view using htmlHelpers</h3>
+<li>@Html.ActionLink("example-8", "create", "state_management", new { area = "" }, new { @class = "nav-link" })</li>
+<br />
+
+<h3>Form controls using htmlhelpers</h3>
+
+<li>@Html.ActionLink("example_9", "Display", "state_management", new { area = "" }, new { @class = "nav-link" })</li>
+
+
+<br />
+<br />
+
+<h2>strongly typed view </h2>
+
+<h3>Department --> strongly typed view created using model cls & with htmlhelpers</h3>
+
+<li>@Html.ActionLink("example_10", "department", "state_management", new { area = "" }, new { @class = "nav-link" })</li>
+<br />
+
+<h3>Register Form ----> strongly typed view using textbox, radio, check,dropdwn list </h3>
+
+<li>@Html.ActionLink("exmp-11", "reg", "state_management", new { area = "" }, new { @class = "nav-link" })</li>
+
+

@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Display";
+}
+
+<h2>Display</h2>
+
+<h3> Form controls </h3>
+
+
+@using (Html.BeginForm())
+            {
+                <table>
+                    <tr>
+                        <td>@Html.Label("username")</td>
+                        <td>@Html.TextBox("uname")</td>
+                    </tr><br />
+                    <tr>
+                        <td>@Html.Label("password")</td>
+                        <td>@Html.TextBox("password")</td><br />
+                    </tr><br />
+                    <tr>
+                        <td>@Html.Label("city")</td>
+                        <td>@Html.DropDownList("List1",new List<SelectListItem>()
+                            {
+                            new SelectListItem(){Text="Hyderabad",Value="Hyderabad", Selected=true},
+                            new SelectListItem(){Text="Warangal", Value="warangal", Selected=true},
+                            new SelectListItem(){Text="Nalgonda", Value="Nalgonda", Selected=true},
+                            new SelectListItem(){ Text="Khammam", Value="Khammam", Selected= true}
+                         })</td>
+                    </tr>
+
+                    <tr>
+                        <td> @Html.Label("Gender")</td>
+                        <td>
+                            @Html.RadioButton("rbl","male")Male
+                            @Html.RadioButton("rbl","female")Female
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> @Html.Label("Hobbies")</td>
+                        <td>
+                            @Html.CheckBox("cb1")Carroms
+                            @Html.CheckBox("cb2")Sports
+                            @Html.CheckBox("cb3")crafting
+                            @Html.CheckBox("cb4")Movies
+                            @Html.CheckBox("cb5")Gardening
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="save" />
+                        </td>
+                    </tr>
+                </table>
+            }

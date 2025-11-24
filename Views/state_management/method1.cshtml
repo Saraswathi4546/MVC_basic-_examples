@@ -1,0 +1,34 @@
+﻿
+@model mvc_examples.Models.Arthametic
+
+
+@{
+    ViewBag.Title = "method1";
+}
+
+<h3> Arthametic Operations using Addition , Substration, Multiplication  And Division </h3>
+
+@using (Html.BeginForm())
+{
+    @Html.Label("First num")
+    @Html.EditorFor(p => p.num1)
+    <br />
+    <br />
+
+    @Html.Label("second num")
+    @Html.EditorFor(p => p.num2)
+    <br />
+    <br />
+
+    @Html.Label("result     :      ")   
+    @Html.DisplayFor(p => p.result)<br /><br />
+
+    <button type="submit" value="A_Add" formaction="/state_management/A_Add">Add</button>
+
+    <button type="submit" value="sub" formaction="/state_management/sub">Sub</button>
+
+    <button type="submit" value="mul" formaction="/state_management/mul">Mul</button>
+
+    <button type="submit" value="div" formaction="/state_management/div">Div</button>
+}
+

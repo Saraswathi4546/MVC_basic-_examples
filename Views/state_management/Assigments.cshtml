@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Assigments";
+}
+
+<style>
+
+    h2
+    {
+       text-align : center;
+       text-shadow: 2px 2px 2px gray;
+    }
+
+    link{
+        margin :2px 0px 0px 15%;
+    }
+</style>
+
+<h2>Assigments</h2>
+
+<h3> Assigment -1 ===>(addition of 2 numbers and display the result )</h3>
+
+<li class="link">@Html.ActionLink("assignment-1", "Add", "state_management", new { area = "" }, new { @class = "nav-link" })</li><br /><br />
+
+<h3>Assignment - 2 =======> ( Arthametic operations like Add, sub, Mul, Div)</h3>
+
+<li  class="link">@Html.ActionLink("assignment-2", "method1", "state_management", new { area = "" }, new { @class = "nav-link" })</li><br /><br />
+
+
+<h3> Assignment -3 =====> ( calculation of Total and Average marks) </h3>
+
+<li  class="link">@Html.ActionLink("assignment-3", "std_details", "state_management", new { area = "" }, new { @class = "nav-link" })</li>
+
+
+

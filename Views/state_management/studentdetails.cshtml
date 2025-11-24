@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "studentdetails";
+}
+
+<h2>studentdetails</h2>
+
+@model List<mvc_examples.Models.student>
+
+<table border="1">
+    <tr>
+        <th>Student ID</th>
+        <th>Student Name</th>
+        <th>Marks</th>
+    </tr>
+
+    @foreach(var s in Model)
+            {
+                <tr>
+                    <td>@s.sid</td>
+                    <td>@s.sname</td>
+                    <td>@s.marks</td>
+                </tr>
+            }
+</table>
+

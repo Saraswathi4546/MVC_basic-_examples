@@ -1,0 +1,42 @@
+﻿@model mvc_examples.Models.std_marks
+
+
+@{
+    ViewBag.Title = "std_details";
+}
+
+<h2>student marks details </h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.Label("student id :")
+        @Html.EditorFor(w => w.sid)<br /><br />
+
+        @Html.Label("student name :")
+        @Html.EditorFor(w => w.sname)<br /><br />
+
+        @Html.Label(" maths score  :")
+        @Html.EditorFor(w => w.maths)<br /><br />
+
+        @Html.Label("physics score :")
+        @Html.EditorFor(w => w.phy)<br /><br />
+
+        @Html.Label("chemistry score :")
+        @Html.EditorFor(w => w.che)<br /><br />
+
+        @Html.Label("Total Marks:")
+        @Html.DisplayFor(w => w.total)<br /><br />
+
+        @Html.Label("Average marks:")
+        @Html.DisplayFor(w => w.average)<br /><br />
+
+        @Html.Label("Grade:")
+        @Html.DisplayFor(w => w.grade)<br /><br />
+
+        <input type="submit" value="result" />
+    </div>
+}
+
+
+

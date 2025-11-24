@@ -1,0 +1,67 @@
+﻿@model mvc_examples.Models.modelcls
+
+@{
+    ViewBag.Title = "exmp";
+}
+
+<style>
+
+    h2 {
+        text-align: center;
+        text-shadow: 4px 3px 4px gray;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .out {
+        background-color: aquamarine;
+        text-align: center;
+        border: 2px solid;
+        width: 34%;
+        margin: 2px 0px 0px 34%;
+        padding: 10px;
+    }
+
+    p {
+        color: red;
+    }
+</style>
+
+<h2> user Details  </h2>
+
+<div class=" out">
+
+    @using (Html.BeginForm())
+    {
+        @Html.LabelFor(a => a.username)
+        @Html.EditorFor(a => a.username)<br />
+        <p>@Html.ValidationMessageFor(a => a.username)</p>
+
+
+        @Html.LabelFor(a => a.password)
+        @Html.EditorFor(a => a.password)<br />
+       <p>@Html.ValidationMessageFor(a => a.password)</p>
+
+
+
+        @Html.LabelFor(a => a.cpassword)
+        @Html.EditorFor(a => a.cpassword)<br />
+       <p> @Html.ValidationMessageFor(a => a.cpassword)</p>
+
+
+
+        @Html.LabelFor(a => a.email)
+        @Html.EditorFor(a => a.email)<br />
+        <p>@Html.ValidationMessageFor(a => a.email)</p>
+
+        @Html.LabelFor(a => a.phone)
+        @Html.EditorFor(a => a.phone)<br />
+        <p>@Html.ValidationMessageFor(a => a.phone)</p>
+
+        <input type="submit" value="save" />
+
+
+    }
+
+</div>
+
+

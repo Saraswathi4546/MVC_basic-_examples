@@ -1,0 +1,37 @@
+﻿
+@model mvc_examples.Models.Addition
+@{
+    ViewBag.Title = "Add";
+}
+<style>
+    h2{
+        text-align:center;
+        color: blue;
+    }
+    .abc{
+        text-align:center;
+        border-radius:4px;
+        background-color:aquamarine;
+        width:40%;
+        padding:30px;
+        margin: 50px 0px 60px 30%;
+
+        
+    }
+</style>
+
+<h2>Adding of 2 Numbers And Displaying Result </h2>
+@using (Html.BeginForm())
+{
+    <div class="abc">
+
+        @Html.LabelFor(m => m.num1) :
+        @Html.EditorFor(m => m.num1)<br /><br />
+        @Html.LabelFor(m => m.num2) : &nbsp;&nbsp;
+        @Html.EditorFor(m => m.num2)<br /><br />
+        result: @Model.result<br /><br />
+        <input type="submit" value="save" />
+
+    </div>
+}
+

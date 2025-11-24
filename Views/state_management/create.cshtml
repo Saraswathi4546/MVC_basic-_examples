@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "create";
+}
+
+<h2>create</h2>
+
+<h3>Registation Form</h3>
+
+@using (Html.BeginForm())
+            {
+                <table>
+                    <tr>
+                        <td>@Html.Label("first name")</td>
+                        <td>@Html.TextBox("fname")</td>
+                    </tr>
+
+                    <tr>
+                        <td>@Html.Label("last name")</td>
+                        <td>@Html.TextBox("lname")</td>
+                    </tr>
+
+                    <tr>
+                        <td>@Html.Label("phone")</td>
+                        <td>@Html.TextBox("phone")</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" value="save" /></td>
+                    </tr>
+
+                </table>
+            }
+

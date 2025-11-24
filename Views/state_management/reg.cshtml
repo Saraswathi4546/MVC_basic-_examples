@@ -1,0 +1,58 @@
+﻿@model mvc_examples.Models.usermodel
+
+@{
+    ViewBag.Title = "reg";
+}
+
+<h2>registation form </h2>
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(p => p.username)
+    @Html.EditorFor(p => p.username)
+    <br />
+    <br />
+    @Html.LabelFor(p => p.password)
+    @Html.PasswordFor(p => p.password);
+    <br />
+    <br />
+
+    @Html.LabelFor(p => p.cpassword)
+    @Html.PasswordFor(p => p.cpassword);
+    <br />
+    <br />
+    @Html.LabelFor(p => p.city)
+    @Html.DropDownListFor(p => p.city, new List<SelectListItem>()
+    {
+        new SelectListItem() { Text="hyderabad", Value="hyderaba"},
+        new SelectListItem() { Text="pune", Value="pune"},
+        new SelectListItem() { Text="mumbai", Value="mumbai"},
+        new SelectListItem() { Text="nagpur", Value="nagpur"},
+        new SelectListItem() { Text="nashik", Value="nashik"},
+})
+    <br />
+    <br />
+
+    @Html.LabelFor(p => p.gender)
+    @Html.RadioButtonFor(p => p.gender, "Male")<span>>male</span>
+    @Html.RadioButtonFor(p => p.gender, "female")<span>female</span>
+
+     <br />
+     <br />
+
+         @Html.Label("Hobbies")
+
+            @Html.CheckBoxFor(p => p.Chat)<span>Chat</span>
+         @Html.CheckBoxFor(p => p.movies)<span>movies</span>
+    @Html.CheckBoxFor(p => p.sports)<span>sports</span>
+
+       <br />
+        <br />
+
+          <input type="submit" value="save" />
+          }
+
+
+
+
+

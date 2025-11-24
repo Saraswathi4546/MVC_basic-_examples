@@ -1,0 +1,35 @@
+﻿<style>
+    body 
+    {
+        background:lightpink;
+    }
+    img 
+    {
+        margin: 6% 0px 0px 26px;
+    }
+    h2{
+        text-align:center;
+        text-shadow:3px 4px 5px blue;
+        font-size:50px;
+    }
+</style>
+
+
+<h2> Birds </h2>
+@{ 
+    List<string> obj = new List<string>()
+    {
+        
+         "~/Content/Images/bird2.jpg",
+         "~/Content/Images/bird3.jpg",
+         "~/Content/Images/bird4.jpg",
+          "~/Content/Images/img.1.jpg"
+    };
+}
+
+
+@foreach(var item in obj)
+            {
+                <img src="@Url.Content(item)"  width="250" />
+            }
+

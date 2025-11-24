@@ -1,0 +1,50 @@
+﻿
+@model mvc_examples.Models.college
+@{
+    ViewBag.Title = "department";
+}
+
+<h2>department</h2>
+
+@using(Html.BeginForm())
+            {
+                <table>
+                    <tr>
+                        <td>@Html.LabelFor(a => a.sid)</td>
+                        <td>@Html.EditorFor(a => a.sid)</td>
+                    </tr>
+
+                    <tr>
+                        <td>@Html.LabelFor(a => a.sname)</td>
+                        <td>@Html.EditorFor(a => a.sname)</td>
+                    </tr>
+
+                    <tr>
+                        <td>@Html.LabelFor(a => a.Joining)</td>
+                        <td>@Html.TextBoxFor(a => a.Joining, new {@type="date"})</td>
+                    </tr>
+
+                    <tr>
+                        <td>@Html.LabelFor(a => a.course)</td>
+                        <td>@Html.EditorFor(a => a.course)</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>@Html.LabelFor(a => a.Fee)</td>
+                        <td>@Html.EditorFor(a => a.Fee)</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>@Html.LabelFor(a => a.std_cgpa)</td>
+                        <td>@Html.EditorFor(a => a.std_cgpa)</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" value="Save" /></td>
+                    </tr>
+
+                </table>
+            }
+

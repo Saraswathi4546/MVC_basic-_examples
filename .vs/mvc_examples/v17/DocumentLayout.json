@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\mvc_applications\\mvc_examples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|e:\\mvc_applications\\mvc_examples\\views\\state_management\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|solutionrelative:views\\state_management\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "create.cshtml",
+              "DocumentMoniker": "E:\\mvc_applications\\mvc_examples\\Views\\state_management\\create.cshtml",
+              "RelativeDocumentMoniker": "Views\\state_management\\create.cshtml",
+              "ToolTip": "E:\\mvc_applications\\mvc_examples\\Views\\state_management\\create.cshtml",
+              "RelativeToolTip": "Views\\state_management\\create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T15:56:23.956Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
