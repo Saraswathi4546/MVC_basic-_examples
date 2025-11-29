@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "E:\\mvc_applications\\mvc_examples\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|E:\\mvc_applications\\mvc_examples\\views\\state_management\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|solutionrelative:views\\state_management\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|e:\\mvc_applications\\mvc_examples\\views\\annotations\\movie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|solutionrelative:views\\annotations\\movie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|e:\\mvc_applications\\mvc_examples\\views\\annotations\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|solutionrelative:views\\annotations\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|e:\\mvc_applications\\mvc_examples\\views\\annotations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|solutionrelative:views\\annotations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|e:\\mvc_applications\\mvc_examples\\views\\annotations\\exmp14.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|solutionrelative:views\\annotations\\exmp14.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|e:\\mvc_applications\\mvc_examples\\controllers\\annotationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|solutionrelative:controllers\\annotationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|E:\\mvc_applications\\mvc_examples\\Views\\state_management\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD90165A-3706-4B81-88DC-AC0455365589}|mvc_examples.csproj|solutionrelative:Views\\state_management\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "movie.cshtml",
+              "DocumentMoniker": "E:\\mvc_applications\\mvc_examples\\Views\\Annotations\\movie.cshtml",
+              "RelativeDocumentMoniker": "Views\\Annotations\\movie.cshtml",
+              "ToolTip": "E:\\mvc_applications\\mvc_examples\\Views\\Annotations\\movie.cshtml",
+              "RelativeToolTip": "Views\\Annotations\\movie.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T10:52:35.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "layout.cshtml",
+              "DocumentMoniker": "E:\\mvc_applications\\mvc_examples\\Views\\Annotations\\layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Annotations\\layout.cshtml",
+              "ToolTip": "E:\\mvc_applications\\mvc_examples\\Views\\Annotations\\layout.cshtml",
+              "RelativeToolTip": "Views\\Annotations\\layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T10:52:32.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\mvc_applications\\mvc_examples\\Views\\Annotations\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Annotations\\Index.cshtml",
+              "ToolTip": "E:\\mvc_applications\\mvc_examples\\Views\\Annotations\\Index.cshtml",
+              "RelativeToolTip": "Views\\Annotations\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T10:52:30.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "exmp14.cshtml",
+              "DocumentMoniker": "E:\\mvc_applications\\mvc_examples\\Views\\Annotations\\exmp14.cshtml",
+              "RelativeDocumentMoniker": "Views\\Annotations\\exmp14.cshtml",
+              "ToolTip": "E:\\mvc_applications\\mvc_examples\\Views\\Annotations\\exmp14.cshtml",
+              "RelativeToolTip": "Views\\Annotations\\exmp14.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T10:52:25.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnnotationsController.cs",
+              "DocumentMoniker": "E:\\mvc_applications\\mvc_examples\\Controllers\\AnnotationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnnotationsController.cs",
+              "ToolTip": "E:\\mvc_applications\\mvc_examples\\Controllers\\AnnotationsController.cs",
+              "RelativeToolTip": "Controllers\\AnnotationsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T06:45:12.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "create.cshtml",
               "DocumentMoniker": "E:\\mvc_applications\\mvc_examples\\Views\\state_management\\create.cshtml",
               "RelativeDocumentMoniker": "Views\\state_management\\create.cshtml",
               "ToolTip": "E:\\mvc_applications\\mvc_examples\\Views\\state_management\\create.cshtml",
               "RelativeToolTip": "Views\\state_management\\create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T15:56:23.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T15:56:23.956Z"
             }
           ]
         }
